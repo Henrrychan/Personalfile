@@ -107,6 +107,8 @@ ip-cidr, 203.107.1.1/24, reject
 final, 黑白名单
 
 [rewrite_local]
+// 重写，简体；
+https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=en.+?((?!&tlang=zh\-Hans).)*$ url request-header \sHTTP/1\.1(\r\n) request-header &tlang=zh-Hans HTTP/1.1$1
 # 彩云天气
 https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/JQWS/GuangZhuiQuanX/main/rewrite/caiyun/caiyun_svip.js
 # WPS解锁  超级会员、wps会员、稻壳会员
