@@ -20,9 +20,9 @@ server=/melogin.cn/system
 server=/falogin.cn/system
 
 [policy]
+static=Netflix, resource-tag-regex=牛牛, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
 static=全球加速, Bull, 樱花, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static=苹果服务, direct, 樱花, HK, TW, JP, US, SG, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
-static=Netflix, resource-tag-regex=牛牛, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
 static=港台番剧, direct, TW, HK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bili.png
 static=国际媒体, 全球加速, 樱花, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
 static=黑白名单, 全球加速, direct, proxy, 樱花, HK, TW, JP, SG, US, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
@@ -46,14 +46,14 @@ https://welink345.com/api/v1/client/subscribe?token=e507db693cc45cca44ab20c027de
 https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fnezuko.cc%2Flink%2F9sDClkGF2D6WqkF0%3Fclash%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&include=1%E5%80%8D&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false, tag=樱花, update-interval=172800, opt-parser=true, enabled=true
 
 [filter_remote]
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netease%20Music.list, tag=Netease Music 规则, force-policy=Netease Music, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=广告拦截, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list, tag=广告拦截, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list, tag=运营劫持, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list, tag=隐私保护, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix, force-policy=Netflix, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list, tag=Spotify
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netease%20Music.list, tag=Netease Music 规则, force-policy=Netease Music, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list, tag=YouTube, force-policy=US, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list, tag=Spotify, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Twitter.list, tag=Twitter, force-policy=全球加速, update-interval=172800, opt-parser=false, enabled=true
@@ -73,6 +73,7 @@ https://cdn.jsdelivr.net/gh/17mon/china_ip_list@master/china_ip_list.txt#type=ru
 https://gaoyifan.github.io/china-operator-ip/chinanet6.txt#type=rule, tag=ChinaIPv6, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 
 [rewrite_remote]
+https://raw.githubusercontent.com/edchenyi/edison/main/TIKTOK%E8%A7%A3%E9%94%81US
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityWallpaperProCrack.js, tag=克拉壁纸, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotabilityProCrack.js, tag=notability, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=boxjs, update-interval=172800, opt-parser=false, enabled=true
@@ -82,7 +83,6 @@ https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Bili_Auto_Regions.con
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf, tag=Cookie, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/TestFlightDownload.conf, tag=TestFlight区域限制解除, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/TikTok.conf, tag=Tiktok解锁, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=去广告脚本, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=神机去广告, update-interval=86400, opt-parser=true, enabled=true
@@ -107,6 +107,26 @@ ip-cidr, 203.107.1.1/24, reject
 final, 黑白名单
 
 [rewrite_local]
+# 去微博应用内广告
+https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info|remind/unread_count) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+# 微博去广告
+// 微博下面的评论
+^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/comments/build_comments\? url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_comment.js
+// 微博 推荐 热门/榜单/放映厅… https://api.weibo.cn/2/statuses/unread_hot_timeline?
+// 微博 最新微博 https://api.weibo.cn/2/statuses/friends/timeline?
+// 视频流（短视频上划，微博继续推荐新视频） https://api.weibo.cn/2/video/tiny_stream_video_list?
+// 微博 全部关注 https://api.weibo.cn/2/statuses/unread_friends_timeline?
+^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/(statuses/unread_hot_timeline|statuses/friends/timeline|video/tiny_stream_video_list|statuses/unread_friends_timeline)\? url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_statuses.js
+// 发现 热点 https://api.weibo.cn/2/cardlist?
+// 发现 搜索 https://api.weibo.cn/2/searchall?
+// 超话 帖子/精华/官方 https://api.weibo.cn/2/page?
+^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/(cardlist|searchall|page)\? url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_cardlist.js
+// 每条微博下面 创作者广告共享计划
+^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/statuses/extend\? url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_statuses_extend.js
+// 开屏广告
+^https://sdkapp\.uve\.weibo\.com/interface/sdk/sdkad\.php$ url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_sdkad.js
+# 百度防跳转
 ^https?:\/\/.*\.baidu\.com\/.*https%3A%2F%2Fitunes.apple.com%2Fcn%2Fapp%2Fid.* url reject-200
 // 重写，简体；
 https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=en.+?((?!&tlang=zh\-Hans).)*$ url request-header \sHTTP/1\.1(\r\n) request-header &tlang=zh-Hans HTTP/1.1$1
