@@ -20,8 +20,7 @@ server=/melogin.cn/system
 server=/falogin.cn/system
 
 [policy]
-url-latency-benchmark=Bull, resource-tag-regex=牛牛, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
-url-latency-benchmark=樱花, resource-tag-regex=樱花, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/CCCat.png
+url-latency-benchmark=Bull, resource-tag-regex=牛牛, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.pngurl-latency-benchmark=樱花, resource-tag-regex=樱花, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/CCCat.png
 url-latency-benchmark=Welink, resource-tag-regex=Welink, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
 static=Netflix, resource-tag-regex=牛牛, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
 static=Netease Unblock Server, resource-tag-regex=解锁网易云, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
