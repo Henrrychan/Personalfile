@@ -35,7 +35,7 @@ url-latency-benchmark=TW, server-tag-regex=(?=.*(台|TW|(?i)Taiwan))^((?!(港|�
 url-latency-benchmark=JP, server-tag-regex=(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
 url-latency-benchmark=SG, server-tag-regex=(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
 url-latency-benchmark=US, server-tag-regex=(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
-#url-latency-benchmark=KR, server-tag-regex=韩国, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Korea.png
+url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(港|台|日|美|新)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
 [server_remote]
 https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/AgentNode/NeteaseMusicUnlock.list, tag=解锁网易云, update-interval=172800, opt-parser=true, enabled=true
 https://api.dingyueddnshub.xyz/link/xCLeHyMitJBHiT5T?sub=1, tag=牛牛, update-interval=172800, opt-parser=true, enabled=true
