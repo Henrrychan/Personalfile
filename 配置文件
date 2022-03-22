@@ -37,9 +37,9 @@ url-latency-benchmark=US, server-tag-regex=(?=.*(美|US|(?i)States|American))^((
 url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(港|台|日|美|新)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
 [server_remote]
 https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/AgentNode/NeteaseMusicUnlock.list, tag=解锁网易云, update-interval=172800, opt-parser=true, enabled=true
-https://api.dingyueddnshub.xyz/link/gjkxdwvEVQH5b1Uc?sub=1, tag=牛牛, update-interval=172800, opt-parser=true, enabled=true
-https://welink345.com/api/v1/client/subscribe?token=e507db693cc45cca44ab20c027dec9d5, tag=Welink, update-interval=172800, opt-parser=true, enabled=true
-https://api.v1.mk/sub?target=quanx&url=https%3A%2F%2Fkanao.xyz%2Flink%2F9sDClkGF2D6WqkF0%3Fsub%3D4&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&emoji=true&list=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&sort=false, tag=樱花, update-interval=172800, opt-parser=true, enabled=true
+https://api.dingyueddnshub.xyz/link/thKFcM7EDUrLLmUM?sub=1, tag=牛牛, update-interval=172800, opt-parser=true, enabled=true
+https://welink345.com/api/v1/client/subscribe?token=7a170e144680acc79f392c78b56f13ac, tag=Welink, update-interval=172800, opt-parser=true, enabled=true
+https://nezuko.cc/link/Mgz06S2i6VXfjerC, tag=樱花, update-interval=172800, opt-parser=true, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=广告拦截, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
