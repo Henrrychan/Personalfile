@@ -39,7 +39,7 @@ url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(
 https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/AgentNode/NeteaseMusicUnlock.list, tag=解锁网易云, update-interval=172800, opt-parser=true, enabled=true
 https://api.dingyueddnshub.xyz/link/thKFcM7EDUrLLmUM?sub=1, tag=牛牛, update-interval=172800, opt-parser=true, enabled=true
 https://welink345.com/api/v1/client/subscribe?token=7a170e144680acc79f392c78b56f13ac, tag=Welink, update-interval=172800, opt-parser=true, enabled=true
-https://nezuko.cc/link/Mgz06S2i6VXfjerC, tag=樱花, update-interval=172800, opt-parser=true, enabled=true
+https://kanao.xyz/link/Mgz06S2i6VXfjerC?sub=4, tag=樱花, update-interval=172800, opt-parser=true, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=广告拦截, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
