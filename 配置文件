@@ -21,14 +21,13 @@ server=/falogin.cn/system
 
 [policy]
 url-latency-benchmark=Bull, resource-tag-regex=牛牛, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
-url-latency-benchmark=樱花, resource-tag-regex=樱花, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/CCCat.png
-url-latency-benchmark=Welink, resource-tag-regex=Welink, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
+url-latency-benchmark=Welink, resource-tag-regex=Welink, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
 static=Netflix, resource-tag-regex=牛牛, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
 static=Netease Unblock Server, resource-tag-regex=解锁网易云, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=Netease Music, direct, Netease Unblock Server, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
-static=全球加速, Bull, 樱花, Welink, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+static=全球加速, Bull, Welink, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static=港台番剧, direct, TW, HK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bili.png
-static=黑白名单, 全球加速, direct, proxy, 樱花, HK, TW, JP, SG, US, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
+static=黑白名单, 全球加速, direct, proxy, HK, TW, JP, SG, US, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
 url-latency-benchmark=HK, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 url-latency-benchmark=TW, server-tag-regex=(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
 url-latency-benchmark=JP, server-tag-regex=(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
@@ -39,7 +38,6 @@ url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(
 https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/AgentNode/NeteaseMusicUnlock.list, tag=解锁网易云, update-interval=172800, opt-parser=true, enabled=true
 https://api.dingyueddnshub.xyz/link/thKFcM7EDUrLLmUM?sub=1, tag=牛牛, update-interval=172800, opt-parser=true, enabled=true
 https://welink345.com/api/v1/client/subscribe?token=7a170e144680acc79f392c78b56f13ac, tag=Welink, update-interval=172800, opt-parser=true, enabled=true
-https://kanao.xyz/link/Mgz06S2i6VXfjerC?sub=4, tag=樱花, update-interval=172800, opt-parser=true, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=广告拦截, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
@@ -68,7 +66,6 @@ https://gaoyifan.github.io/china-operator-ip/chinanet6.txt#type=rule, tag=ChinaI
 
 [rewrite_remote]
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/WallCraftFProCrack.js, tag=Wallcraft, update-interval=172800, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js, tag=Tidal, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js, tag=克拉壁纸, update-interval=172800, opt-parser=true, enabled=false
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotabilityProCrack.js, tag=notability, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=boxjs, update-interval=172800, opt-parser=false, enabled=true
