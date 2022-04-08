@@ -35,8 +35,8 @@ url-latency-benchmark=US, server-tag-regex=(?=.*(美|US|(?i)States|American))^((
 url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(港|台|日|美|新)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
 [server_remote]
 https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/AgentNode/NeteaseMusicUnlock.list, tag=解锁网易云, update-interval=43200, opt-parser=true, enabled=true
-https://api.dingyueddnshub.xyz/link/thKFcM7EDUrLLmUM?sub=1, tag=牛牛, update-interval=21600, opt-parser=true, enabled=true
-https://welink345.com/api/v1/client/subscribe?token=7a170e144680acc79f392c78b56f13ac, tag=Welink, update-interval=21600, opt-parser=true, enabled=true
+https://api.dingyueddnshub.xyz/link/KaCu3N6k9G7KFgHN?sub=1, tag=牛牛, update-interval=21600, opt-parser=true, enabled=true
+https://welink345.com/api/v1/client/subscribe?token=697be6362c804e9e96ddb1632f0786c6, tag=Welink, update-interval=21600, opt-parser=true, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=广告拦截, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
