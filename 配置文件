@@ -21,7 +21,7 @@ server=/falogin.cn/system
 
 [policy]
 url-latency-benchmark=Bull, resource-tag-regex=牛牛, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
-url-latency-benchmark=Welink, resource-tag-regex=Welink, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
+url-latency-benchmark=Bean, resource-tag-regex=Bean, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
 static=Netease Unblock Server, resource-tag-regex=解锁网易云, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=Netease Music, direct, Netease Unblock Server, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
 static=全球加速, Bull, Welink, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
@@ -36,7 +36,7 @@ url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(
 [server_remote]
 https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/AgentNode/NeteaseMusicUnlock.list, tag=解锁网易云, update-interval=43200, opt-parser=true, enabled=true
 https://api.dingyueddnshub.xyz/link/KaCu3N6k9G7KFgHN?sub=1, tag=牛牛, update-interval=21600, opt-parser=true, enabled=true
-https://kanao.xyz/link/IbPDu0BVmNgKQXpP?sub=4, tag=Welink, update-interval=21600, opt-parser=true, enabled=true
+https://kanao.xyz/link/IbPDu0BVmNgKQXpP?sub=4, tag=Bean, update-interval=21600, opt-parser=true, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=广告拦截, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
