@@ -24,7 +24,7 @@ url-latency-benchmark=Bull, resource-tag-regex=牛牛, check-interval=300, toler
 url-latency-benchmark=Bean, resource-tag-regex=Bean, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
 static=Netease Unblock Server, resource-tag-regex=解锁网易云, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=Netease Music, direct, Netease Unblock Server, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
-static=全球加速, Bull, Welink, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+static=全球加速, Bull, Bean, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static=港台番剧, direct, TW, HK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bili.png
 static=黑白名单, 全球加速, direct, proxy, HK, TW, JP, SG, US, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
 url-latency-benchmark=HK, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
