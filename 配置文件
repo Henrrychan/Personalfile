@@ -20,11 +20,11 @@ server=/melogin.cn/system
 server=/falogin.cn/system
 
 [policy]
-url-latency-benchmark=Bull, resource-tag-regex=牛牛, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
+url-latency-benchmark=Free, resource-tag-regex=Free, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
 url-latency-benchmark=Bean, resource-tag-regex=Bean, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
 static=Netease Unblock Server, resource-tag-regex=解锁网易云, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=Netease Music, direct, Netease Unblock Server, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
-static=全球加速, Bull, Bean, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+static=全球加速, Free, Bean, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static=港台番剧, direct, TW, HK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bili.png
 static=黑白名单, 全球加速, direct, proxy, HK, TW, JP, SG, US, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
 url-latency-benchmark=HK, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
@@ -35,7 +35,7 @@ url-latency-benchmark=US, server-tag-regex=(?=.*(美|US|(?i)States|American))^((
 url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(港|台|日|美|新)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
 [server_remote]
 https://raw.githubusercontent.com/bilibili-boom/Rules/master/UnblockNeteaseMusic.list#checkurl=http://interface3.music.163.com, tag=解锁网易云, update-interval=43200, opt-parser=true, enabled=true
-https://api.dingyueddnshub.xyz/link/Lw3ul13oxQicTalA?sub=1, tag=牛牛, update-interval=21600, opt-parser=true, enabled=true
+https://api.dingyueddnshub.xyz/link/Lw3ul13oxQicTalA?sub=1, tag=Free, update-interval=21600, opt-parser=true, enabled=true
 https://kanao.xyz/link/IbPDu0BVmNgKQXpP?sub=4, tag=Bean, update-interval=21600, opt-parser=true, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
