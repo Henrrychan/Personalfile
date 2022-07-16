@@ -20,12 +20,12 @@ server=/melogin.cn/system
 server=/falogin.cn/system
 
 [policy]
-url-latency-benchmark=Thief, resource-tag-regex=Free, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
-url-latency-benchmark=OFLY, resource-tag-regex=Channal, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
-url-latency-benchmark=Welink, resource-tag-regex=Update, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/FNF.png
+url-latency-benchmark=Free, resource-tag-regex=Free, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
+url-latency-benchmark=OFLY, resource-tag-regex=OFLY, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
+url-latency-benchmark=Welink, resource-tag-regex=Welink, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/FNF.png
 static=Netease Unblock Server, resource-tag-regex=解锁网易云, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=Netease Music, direct, Netease Unblock Server, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
-static=全球加速, Free, Channal,Welink, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+static=全球加速, Free, OFLY,Welink, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static=港台番剧, direct, TW, HK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bili.png
 static=黑白名单, 全球加速, direct, proxy, HK, TW, JP, SG, US, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
 url-latency-benchmark=HK, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
@@ -36,7 +36,7 @@ url-latency-benchmark=US, server-tag-regex=(?=.*(美|US|(?i)States|American))^((
 url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(港|台|日|美|新)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
 [server_remote]
 https://raw.githubusercontent.com/bilibili-boom/Rules/master/UnblockNeteaseMusic.list#checkurl=http://interface3.music.163.com, tag=解锁网易云, update-interval=43200, opt-parser=true, enabled=true
-https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fj20-cloud.com%2Flink%2Fsja9wp8r4huhuakh%3Fclash%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini_MultiMode.ini, tag=Thief, update-interval=21600, opt-parser=true, enabled=true
+https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fj20-cloud.com%2Flink%2Fsja9wp8r4huhuakh%3Fclash%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini_MultiMode.ini, tag=Free, update-interval=21600, opt-parser=true, enabled=true
 https://edrfgrdfg.sendmailser.com/heartbeat/SkxjSNJYwFgyH/vIibQJaZs85dZCNP?clash=1, tag=OFLY, update-interval=21600, opt-parser=true, enabled=true
 https://publicss.cc/api/v1/client/subscribe?token=d5b874a5462e639e0b0da318d4364a98, tag=Welink, update-interval=21600, opt-parser=true, enabled=true
 [filter_remote]
