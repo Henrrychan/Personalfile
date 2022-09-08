@@ -37,7 +37,7 @@ url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(
 [server_remote]
 https://raw.githubusercontent.com/nameking77/Qx/main/music/wyy.txt, tag=解锁网易云, update-interval=43200, opt-parser=true, enabled=true
 https://doucat.top/api/v1/client/subscribe?token=aaf90f47ccad93f806e7d9d2c9d5a829, tag=Free, update-interval=21600, opt-parser=true, enabled=true
-https://edrfgrdfg.sendmailser.com/heartbeat/4ptWSWkHW45w/d4ztWDEaUdzhioWG?clash=1, tag=OFLY, update-interval=21600, opt-parser=true, enabled=true
+https://dy.tannel.xyz/link/vOWJt9sd8iObgKL7?list=quantumultx, tag=OFLY, update-interval=21600, opt-parser=true, enabled=true
 https://xn--i8sr31es4m.com/api/v1/client/subscribe?token=bf596eaae0d40c0b233a5a56a7a1b6a9, tag=Bean, update-interval=21600, opt-parser=true, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
