@@ -25,7 +25,7 @@ url-latency-benchmark=BigFree, resource-tag-regex=Free, check-interval=300, tole
 url-latency-benchmark=MaxFree, resource-tag-regex=Bean, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/FNF.png
 static=Netease Unblock Server, resource-tag-regex=解锁网易云, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=Netease Music, direct, Netease Unblock Server, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
-static=全球加速, SmallFree, BigFree, MaxFree, HK, TW, JP, SG, US, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+static=全球加速, SmallFree, BigFree, MaxFree, proxy, HK, TW, JP, SG, US, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static=港台番剧, direct, TW, HK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bili.png
 static=黑白名单, 全球加速, direct, proxy, HK, TW, JP, SG, US, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
 static=Netflix, server-tag-regex=^., img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Gua
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix, force-policy=Netflix, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netease%20Music.list, tag=Netease Music 规则, force-policy=Netease Music, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list, tag=Spotify, force-policy=全球加速, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/blackmatrix7/ios_rule_script/blob/raw/rule/QuantumultX/YouTube/YouTube.list, tag=YouTube, force-policy=全球加速, update-interval=172800, opt-parser=false, enabled=true
+https://github.com/blackmatrix7/ios_rule_script/blob/raw/rule/QuantumultX/YouTube/YouTube.list, tag=YouTube, force-policy=全球加速, update-interval=172800, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Twitter.list, tag=Twitter, force-policy=全球加速, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/TikTok.list, tag=Tiktok, force-policy=全球加速, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Region/HK.list, tag=流媒体HK, force-policy=HK, update-interval=86400, opt-parser=true, enabled=true
