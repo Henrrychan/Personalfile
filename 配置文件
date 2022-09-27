@@ -22,7 +22,7 @@ server=/falogin.cn/system
 [policy]
 url-latency-benchmark=SmallFree, resource-tag-regex=Doucat, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
 url-latency-benchmark=BigFree, resource-tag-regex=Free, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
-url-latency-benchmark=MaxFree, resource-tag-regex=Bean, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/FNF.png
+url-latency-benchmark=MaxFree, resource-tag-regex=Annual, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/FNF.png
 static=Netease Unblock Server, resource-tag-regex=解锁网易云, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=Netease Music, direct, Netease Unblock Server, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
 static=全球加速, SmallFree, BigFree, MaxFree, proxy, HK, TW, JP, SG, US, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
@@ -38,8 +38,8 @@ url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(
 [server_remote]
 https://raw.githubusercontent.com/nameking77/Qx/main/music/wyy.txt, tag=解锁网易云, update-interval=43200, opt-parser=true, enabled=true
 https://sub.doumao.top/api/v1/client/subscribe?token=aaf90f47ccad93f806e7d9d2c9d5a829, tag=Doucat, update-interval=21600, opt-parser=true, enabled=true
-https://srftbg.sendmailt.com/heartbeat/XKWFLQFXeV0O4h/d4ztWDEaUdzhioWG?clash=1, tag=Free, update-interval=21600, opt-parser=true, enabled=true
-https://xn--i8sr31es4m.com/api/v1/client/subscribe?token=bf596eaae0d40c0b233a5a56a7a1b6a9, tag=Bean, update-interval=21600, opt-parser=true, enabled=true
+https://sub.freexiazai.ml/choujiang/xiaohuojian/81f1f6fa.yml, tag=Free, update-interval=21600, opt-parser=true, enabled=true
+https://suo.yt/Y9WmI7K, tag=Annual, update-interval=21600, opt-parser=true, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=广告拦截, force-policy=reject, update-interval=86400, opt-parser=true, enabled=true
