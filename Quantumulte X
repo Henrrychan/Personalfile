@@ -40,7 +40,7 @@ url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(
 https://raw.githubusercontent.com/nameking77/Qx/main/music/wyy.txt, tag=解锁网易云, update-interval=43200, opt-parser=true, enabled=true
 https://subscribe.tuboshu.bet/link/zfr6zqNKPknIYzco?list=quantumultx, tag=Marmot, update-interval=21600, opt-parser=true, enabled=true
 https://whoisyourdady.gfw-wdnmd.com/link/KbLhF4nXHrAMYeIl?list=quantumultx, tag=PF, update-interval=21600, opt-parser=true, enabled=true
-https://sub.freexiazai.ml/choujiang/xiaohuojian/81f1f6fa.yml, tag=Free, update-interval=21600, opt-parser=true, enabled=true
+https://tagsub.cf/choujiang/xiaohuojian/81f1f6fa.yml, tag=Free, update-interval=21600, opt-parser=true, enabled=true
 https://suo.yt/Y9WmI7K, tag=Annual, update-interval=21600, opt-parser=true, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
