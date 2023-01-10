@@ -20,7 +20,7 @@ server=/melogin.cn/system
 server=/falogin.cn/system
 
 [policy]
-url-latency-benchmark=SmallFree, resource-tag-regex=PF, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
+url-latency-benchmark=SmallFree, resource-tag-regex=Two, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DLK.png
 url-latency-benchmark=BigFree, resource-tag-regex=Free, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Imm.png
 url-latency-benchmark=MaxFree, resource-tag-regex=Annual, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/FNF.png
 url-latency-benchmark=Plusfree, resource-tag-regex=Marmot, check-interval=300, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Suda.png
@@ -39,7 +39,7 @@ url-latency-benchmark=KR, server-tag-regex=(?=.*(韩|KR|(?i)States|Korea))^((?!(
 [server_remote]
 https://raw.githubusercontent.com/nameking77/Qx/main/music/wyy.txt, tag=解锁网易云, update-interval=43200, opt-parser=true, enabled=true
 https://subscribe.tuboshu.bet/link/zfr6zqNKPknIYzco?list=quantumultx, tag=Marmot, update-interval=21600, opt-parser=true, enabled=true
-https://whoisyourdady.gfw-wdnmd.com/link/KbLhF4nXHrAMYeIl?list=quantumultx, tag=PF, update-interval=21600, opt-parser=true, enabled=true
+https://xn--5hqx9equq.com/api/v1/client/subscribe?token=e66ed6d94d3d03928f25b97a6b42e811, tag=Two, update-interval=21600, opt-parser=true, enabled=true
 https://tagsub.cf/choujiang/xiaohuojian/81f1f6fa.yml, tag=Free, update-interval=21600, opt-parser=true, enabled=true
 https://suo.yt/Y9WmI7K, tag=Annual, update-interval=21600, opt-parser=true, enabled=true
 [filter_remote]
