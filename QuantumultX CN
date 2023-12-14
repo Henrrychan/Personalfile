@@ -34,7 +34,7 @@ address=/mtalk.google.com/108.177.125.188
 
 [policy]
 #优选节点默认每一小时进行一次延迟检测，想更换检测时间的请修改check-interval参数。
-static=回国节点, proxy, HG-GZ @hwzy0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+static=回国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
 [server_remote]
 
 [filter_remote]
