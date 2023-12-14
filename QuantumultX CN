@@ -57,8 +57,7 @@ ip-cidr, 192.168.0.0/16, direct
 geoip, cn, 回国节点
 final, direct
 [rewrite_local]
-# YouTube 歌词显示
-https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule, tag=YouTube, update-interval=172800, opt-parser=true, enabled=true
+
 [task_local]
 
 [http_backend]
