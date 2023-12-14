@@ -41,7 +41,8 @@ static=回国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini
 # StreamingCN 中国流媒体服务(面向海外版本)
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list, tag=CN Stream, force-policy=回国节点, update-interval=86400, opt-parser=true, enabled=true
 [rewrite_remote]
-
+# Youtube 歌词显示
+https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule, tag=YouTube, update-interval=172800, opt-parser=true, enabled=true
 [server_local]
 
 [filter_local]
