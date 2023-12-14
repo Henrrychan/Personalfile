@@ -1,0 +1,70 @@
+[general]
+excluded_routes=192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
+network_check_url=http://cp.cloudflare.com/generate_204
+server_check_url=http://www.qualcomm.cn/generate_204
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
+resource_parser_url=https://raw.githubusercontent.com/zwf234/Scriptable/master/resource-parser.js
+profile_img_url=http://qxnav.com/images/molu.png
+dns_exclusion_list = *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.icitymobile.mobi, *.pingan.com.cn, *.cmbchina.com, *.localnetwork.uop, mfs.ykimg.com*.ttf
+
+[dns]
+no-ipv6
+server=119.29.29.29
+server=223.5.5.5
+server=1.2.4.8
+server=/*.taobao.com/223.5.5.5
+server=/*.tmall.com/223.5.5.5
+server=/*.alipay.com/223.5.5.5
+server=/*.alicdn.com/223.5.5.5
+server=/*.aliyun.com/223.5.5.5
+server=/*.jd.com/119.28.28.28
+server=/*.qq.com/119.28.28.28
+server=/*.tencent.com/119.28.28.28
+server=/*.weixin.com/119.28.28.28
+server=/*.bilibili.com/119.29.29.29
+server=/hdslb.com/119.29.29.29
+server=/*.163.com/119.29.29.29
+server=/*.126.com/119.29.29.29
+server=/*.126.net/119.29.29.29
+server=/*.127.net/119.29.29.29
+server=/*.netease.com/119.29.29.29
+server=/*.mi.com/119.29.29.29
+server=/*.xiaomi.com/119.29.29.29
+address=/mtalk.google.com/108.177.125.188
+
+[policy]
+#优选节点默认每一小时进行一次延迟检测，想更换检测时间的请修改check-interval参数。
+static=回国节点, proxy, HG-GZ @hwzy0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+[server_remote]
+
+[filter_remote]
+# StreamingCN 中国流媒体服务(面向海外版本)
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list, tag=CN Stream, force-policy=回国节点, update-interval=86400, opt-parser=true, enabled=true
+[rewrite_remote]
+
+[server_local]
+
+[filter_local]
+host-suffix, local, direct
+host-keyword, merlinblog, proxy
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 17.0.0.0/8, direct
+ip-cidr, 100.64.0.0/10, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+geoip, cn, 回国节点
+final, direct
+[rewrite_local]
+
+[task_local]
+
+[http_backend]
+
+[mitm]
+;passphrase =
+;p12 =
+;skip_validating_cert = false
+;skip_src_ip = 192.168.1.5, 192.168.1.6
+;skip_dst_ip = 17.0.0.1
+;hostname = *.example.com, *.sample.com, non-existed-domain.com, *.non-connected-domain.com
