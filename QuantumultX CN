@@ -38,6 +38,8 @@ static=回国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master
 [server_remote]
 
 [filter_remote]
+# B站 回国分流
+https://whatshub.top/rule/BiliBili.list, tag=B站, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
 # Main Stream in the CN
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/main/BackCN/BackCN.list, tag=BackCN, force-policy=回国节点, update-interval=172800, opt-parser=false, enabled=true
 # StreamingCN 中国流媒体服务(面向海外版本)
