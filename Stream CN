@@ -1,0 +1,49 @@
+# (Music)
+# > Netease
+user-agent,NeteaseMusic*,回国节点
+user-agent,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,回国节点
+host-suffix,music.126.net,回国节点
+host-suffix,music.163.com,回国节点
+# > Tencent
+user-agent,MOO%E9%9F%B3%E4%B9%90*,回国节点
+user-agent,QQ%E9%9F%B3%E4%B9%90,回国节点
+host-suffix,qqmusic.qq.com,回国节点
+host-suffix,y.qq.com,回国节点
+host,aqqmusic.tc.qq.com,回国节点
+# Kugou and Kuwo
+host-suffix,kugou.com,回国节点
+user-agent,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*,回国节点
+host-suffix,kuwo.cn,回国节点
+host-suffix,koowo.com,回国节点
+# (Video)
+# > HunanTV
+user-agent,MGTV*,回国节点
+host-suffix,hitv.com,回国节点
+host-suffix,hunantv.com,回国节点
+host-suffix,mgtv.com,回国节点
+# > Migu
+user-agent,MiguVideo*,回国节点
+user-agent,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91,回国节点
+host-suffix,cmvideo.cn,回国节点
+host-suffix,migu.cn,回国节点
+host-suffix,miguvideo.com,回国节点
+# > iQiyi
+user-agent,iQiYi*,回国节点
+user-agent,PPStream*,回国节点
+user-agent,QIYI*,回国节点
+user-agent,QYPlayer*,回国节点
+host-suffix,iqiyi.com,回国节点
+host-suffix,iqiyipic.com,回国节点
+host-suffix,qy.net,回国节点
+host-suffix,71.am,回国节点
+# > Sohu
+host-suffix,sohu.com,回国节点
+host-suffix,sohu.com.cn,回国节点
+host-suffix,itc.cn,回国节点
+host-suffix,v-56.com,回国节点
+# > Youku
+user-agent,Youku*,回国节点
+user-agent,%E4%BC%98%E9%85%B7*,回国节点
+host-suffix,soku.com,回国节点
+host-suffix,youku.com,回国节点
+host-suffix,ykimg.com,回国节点
