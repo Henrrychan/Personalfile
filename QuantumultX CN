@@ -33,7 +33,7 @@ server=/*.xiaomi.com/119.29.29.29
 address=/mtalk.google.com/108.177.125.188
 
 [policy]
-static=回国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+static=回国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/China.png
 static=Netflix, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
 
 [server_remote]
