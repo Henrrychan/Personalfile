@@ -33,38 +33,44 @@ server=/*.xiaomi.com/119.29.29.29
 address=/mtalk.google.com/108.177.125.188
 
 [policy]
-#优选节点默认每一小时进行一次延迟检测，想更换检测时间的请修改check-interval参数。
 static=回国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+static=Netflix, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
+
 [server_remote]
 
 [filter_remote]
-# B站 回国分流
-https://whatshub.top/rule/BiliBili.list, tag=B站, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
-# Main Stream in the CN
-https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/main/BackCN/BackCN.list, tag=BackCN, force-policy=回国节点, update-interval=172800, opt-parser=false, enabled=true
-# StreamingCN 中国流媒体服务(面向海外版本)
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list, tag=CN Stream, force-policy=回国节点, update-interval=86400, opt-parser=true, enabled=false
+# Stream CN
+https://raw.githubusercontent.com/Henrrychan/Personalfile/main/Stream%20CN, tag=Stream CN, force-policy=回国节点, update-interval=172800, opt-parser=false, enabled=true
+
 [rewrite_remote]
 # Youtube 歌词显示
 https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule, tag=YouTube, update-interval=172800, opt-parser=true, enabled=true
+
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/iScreenk.js, tag=iscreen, update-interval=172800, opt-parser=true, enabled=false
+
 [server_local]
 
 [filter_local]
 host-suffix, local, direct
-host-keyword, merlinblog, proxy
 ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 17.0.0.0/8, direct
 ip-cidr, 100.64.0.0/10, direct
 ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
-geoip, cn, 回国节点
+#geoip, cn, 回国节点
 final, direct
 [rewrite_local]
 
 [task_local]
+0 0 29 2 * https://raw.githubusercontent.com/Hyseen/Scripts/master/QuantumultX/NetflixPolicySwitcher/netflix_switcher.js, tag=Neflix 策略切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png, enabled=true
+0 0 29 2 * https://raw.githubusercontent.com/Hyseen/Scripts/master/QuantumultX/DisneyPlusPolicySwitcher/disney_switcher.js, tag=Disney+ 策略切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png, enabled=true
+30 */2 * * * https://raw.githubusercontent.com/Hyseen/Scripts/master/QuantumultX/DisneyPlusPolicySwitcher/disney_checker.js, tag=Disney+ 解锁检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png, enabled=true
+0 */2 * * * https://raw.githubusercontent.com/Hyseen/Scripts/master/QuantumultX/NetflixPolicySwitcher/netflix_checker.js, tag=Netflix 解锁检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png, enabled=true
+10 10 * * * https://raw.githubusercontent.com/deezertidal/private/main/rates.js, tag=汇率, img-url=yensign.circle.system, enabled=true
 
 [http_backend]
+https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js, tag=BoxJs, path=^/, enabled=true
 
 [mitm]
 ;passphrase =
