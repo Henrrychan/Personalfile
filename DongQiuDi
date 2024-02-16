@@ -1,0 +1,8 @@
+#!name=StartUp
+#!desc=StartUp
+
+[URL Rewrite]
+# > dongqiudi
+^https?:\/\/ap\.dongqiudi\.com\/plat\/v4 data="https://raw.githubusercontent.com/ddgksf2013/Scripts/master/dongqiudi.js"
+[MITM]
+hostname = ap.dongqiudi.com
