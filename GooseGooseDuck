@@ -1,0 +1,14 @@
+# NAME: GooseGooseDuck
+# AUTHOR: Yi Chen
+# UPDATED: 2026-03-25
+
+# Seayoo 游戏核心域名
+DOMAIN-SUFFIX,seayoo.com
+DOMAIN-SUFFIX,seayoogames.cn
+DOMAIN-SUFFIX,seayooassets.com
+DOMAIN-SUFFIX,my-imcloud.com
+DOMAIN-SUFFIX,xgsdk.com
+
+# 游戏服务器 IP
+IP-CIDR,162.14.22.165/32,no-resolve
+IP-CIDR,43.248.136.143/32,no-resolve
